@@ -8,6 +8,10 @@ node() {
     {
         mtaBuild script: this
     }
+    stage('test')
+    {
+        karmaExecuteTests script: this
+    }
     stage('deploy') 
     {
         cloudFoundryDeploy script: this
