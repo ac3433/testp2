@@ -4,7 +4,7 @@ module.exports = function(config) {
       frameworks: ['mocha'],
   
       files: [
-        '*.js'
+        '**/*.js'
       ]
     });
   };
