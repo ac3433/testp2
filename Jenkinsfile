@@ -12,9 +12,9 @@ node() {
     {
         karmaExecuteTests script: this
     }
-    stage('deploy') 
-    {
-        cloudFoundryDeploy script: this
-    }
+//     stage('deploy') 
+//     {
+//         cloudFoundryDeploy script: this
+//     }
     
 }
